@@ -1,0 +1,7 @@
+ZBCellConfig.xcodeproj/xcuserdata/
+ZBCellConfig.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+ZBCellConfig.xcodeproj/project.xcworkspace/xcuserdata/
