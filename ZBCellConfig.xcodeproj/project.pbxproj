@@ -828,6 +828,7 @@
 				6DB85BA11E6EAA4900AD7C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DB85BA21E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigTests" */ = {
 			isa = XCConfigurationList;
@@ -836,6 +837,7 @@
 				6DB85BA41E6EAA4900AD7C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DB85BA51E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigUITests" */ = {
 			isa = XCConfigurationList;
@@ -844,6 +846,7 @@
 				6DB85BA71E6EAA4900AD7C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

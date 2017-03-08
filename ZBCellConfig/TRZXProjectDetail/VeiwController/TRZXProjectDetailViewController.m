@@ -252,12 +252,13 @@ UITableViewDataSource
     [self.sectionArray addObject:@[companyDescriptionCellConfig]];
     
     // ETableViewSection_Comment
-    ZBCellConfig *commentCellConfig = [ZBCellConfig new];
-    commentCellConfig.title = @"评论";
-    commentCellConfig.cellClass = [TRZXProjectDetailCommentTableViewCell class];
-    commentCellConfig.showCellInfoMethod = @selector(setModel:);
-    commentCellConfig.sectionHeaderHeight = 10;
-    [self.sectionArray addObject:@[commentCellConfig]];
+#warning 如需评论模块只需将注释打开即可，不需要其他操作
+//    ZBCellConfig *commentCellConfig = [ZBCellConfig new];
+//    commentCellConfig.title = @"评论";
+//    commentCellConfig.cellClass = [TRZXProjectDetailCommentTableViewCell class];
+//    commentCellConfig.showCellInfoMethod = @selector(setModel:);
+//    commentCellConfig.sectionHeaderHeight = 10;
+//    [self.sectionArray addObject:@[commentCellConfig]];
     
     // ETableViewSection_Commend
     ZBCellConfig *commedCellConfig = [ZBCellConfig new];
@@ -331,41 +332,10 @@ UITableViewDataSource
     
     cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[model,indexPath]];
     
-    if ([cellConfig.cellIdentifier isEqualToString:NSStringFromClass([TRZXProjectDetailnvestTableViewCell class])]) {
-        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:nil isNib:YES];
-    }
-    
-    if ([cellConfig isTitle:@"融资信息"]) {
+    // xib 加载
+    if ([cellConfig isTitle:@"投资人"]) {
         
-        
-    }else if ([cellConfig isTitle:@"项目详情"]) {
-        
-        
-        
-    }else if ([cellConfig isTitle:@"项目大事记"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"创始人"]) {
-        
-        
-        
-    }else if ([cellConfig isTitle:@"核心团队"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"团队概述"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"公司简介"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"在线课程"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"一对一咨询"]) {
-        
-        
-    }else if ([cellConfig isTitle:@"投资人"]) {
-        
+        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[model,indexPath] isNib:YES];
     }
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
