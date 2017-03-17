@@ -1,1 +1,2 @@
-pod repo push TRZX_Repositories ZBCellConfig.podspec --verbose --allow-warnings
+pod trunk push ZBCellConfig.podspec --verbose --allow-warnings
+
