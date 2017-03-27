@@ -82,7 +82,7 @@ UITableViewDataSource
 {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-//    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)addOwnViews
@@ -252,7 +252,7 @@ UITableViewDataSource
     [self.sectionArray addObject:@[companyDescriptionCellConfig]];
     
     // ETableViewSection_Comment
-#warning 如需评论模块只需将注释打开即可，不需要其他操作
+#warning 如需显示评论模块只需将注释打开即可，不需要其他操作
 //    ZBCellConfig *commentCellConfig = [ZBCellConfig new];
 //    commentCellConfig.title = @"评论";
 //    commentCellConfig.cellClass = [TRZXProjectDetailCommentTableViewCell class];
@@ -356,6 +356,11 @@ UITableViewDataSource
     return _sectionArray[section].firstObject.sectionHeaderHeight;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return _sectionArray[section].firstObject.sectionFooterHeight;
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGPoint contentOffset = scrollView.contentOffset;
@@ -369,7 +374,7 @@ UITableViewDataSource
 - (UITableView *)tableView
 {
     if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
         // 设置代理
         _tableView.delegate = self;
         _tableView.dataSource = self;

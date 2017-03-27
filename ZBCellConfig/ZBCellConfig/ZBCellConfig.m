@@ -64,9 +64,9 @@
     self = [super init];
     if (self) {
         
-        _sectionHeaderHeight = 0;
+        _sectionHeaderHeight = 0.001;
         
-        _sectionFooterHeight = 0;
+        _sectionFooterHeight = 0.001;
         
     }
     return self;
