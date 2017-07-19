@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class HeightModel;
+
 @interface HeightTableViewCell1 : UITableViewCell
+
+@property (nonatomic, strong) HeightModel *model;
 
 @end

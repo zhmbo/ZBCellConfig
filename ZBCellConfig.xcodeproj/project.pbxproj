@@ -22,6 +22,11 @@
 		6DB85C9B1E6EB7D400AD7C0A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C8F1E6EB7D400AD7C0A /* View+MASAdditions.m */; };
 		6DB85C9C1E6EB7D400AD7C0A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C921E6EB7D400AD7C0A /* ViewController+MASAdditions.m */; };
 		6DB85CA01E6EB98900AD7C0A /* ZBCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C9F1E6EB98900AD7C0A /* ZBCellConfig.m */; };
+		6DE188851F1FBF510071510A /* HeightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE188841F1FBF510071510A /* HeightModel.m */; };
+		6DE188881F1FBF910071510A /* HeightTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE188871F1FBF910071510A /* HeightTableViewCell1.m */; };
+		6DE1888B1F1FBFA70071510A /* HeightTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1888A1F1FBFA70071510A /* HeightTableViewCell2.m */; };
+		6DE1888F1F1FBFB90071510A /* HeightTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1888D1F1FBFB90071510A /* HeightTableViewCell3.m */; };
+		6DE188901F1FBFB90071510A /* HeightTableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1888E1F1FBFB90071510A /* HeightTableViewCell3.xib */; };
 		9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5767871F1EEC3400C2AD14 /* dataSource.plist */; };
 		9A5767911F1EF3FC00C2AD14 /* LowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767901F1EF3FC00C2AD14 /* LowModel.m */; };
 		9A5767941F1EF41D00C2AD14 /* LowTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767931F1EF41D00C2AD14 /* LowTableViewCell1.m */; };
@@ -69,6 +74,15 @@
 		6DB85C921E6EB7D400AD7C0A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		6DB85C9E1E6EB98900AD7C0A /* ZBCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCellConfig.h; sourceTree = "<group>"; };
 		6DB85C9F1E6EB98900AD7C0A /* ZBCellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCellConfig.m; sourceTree = "<group>"; };
+		6DE188831F1FBF510071510A /* HeightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightModel.h; sourceTree = "<group>"; };
+		6DE188841F1FBF510071510A /* HeightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightModel.m; sourceTree = "<group>"; };
+		6DE188861F1FBF910071510A /* HeightTableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightTableViewCell1.h; sourceTree = "<group>"; };
+		6DE188871F1FBF910071510A /* HeightTableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightTableViewCell1.m; sourceTree = "<group>"; };
+		6DE188891F1FBFA70071510A /* HeightTableViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightTableViewCell2.h; sourceTree = "<group>"; };
+		6DE1888A1F1FBFA70071510A /* HeightTableViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightTableViewCell2.m; sourceTree = "<group>"; };
+		6DE1888C1F1FBFB90071510A /* HeightTableViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightTableViewCell3.h; sourceTree = "<group>"; };
+		6DE1888D1F1FBFB90071510A /* HeightTableViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightTableViewCell3.m; sourceTree = "<group>"; };
+		6DE1888E1F1FBFB90071510A /* HeightTableViewCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeightTableViewCell3.xib; sourceTree = "<group>"; };
 		9A5767871F1EEC3400C2AD14 /* dataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataSource.plist; sourceTree = "<group>"; };
 		9A57678F1F1EF3FC00C2AD14 /* LowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowModel.h; sourceTree = "<group>"; };
 		9A5767901F1EF3FC00C2AD14 /* LowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowModel.m; sourceTree = "<group>"; };
@@ -211,6 +225,8 @@
 		9AF3A23A1F1DFF4900F2DDC0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6DE188831F1FBF510071510A /* HeightModel.h */,
+				6DE188841F1FBF510071510A /* HeightModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,6 +243,13 @@
 		9AF3A23C1F1DFF4900F2DDC0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6DE188861F1FBF910071510A /* HeightTableViewCell1.h */,
+				6DE188871F1FBF910071510A /* HeightTableViewCell1.m */,
+				6DE188891F1FBFA70071510A /* HeightTableViewCell2.h */,
+				6DE1888A1F1FBFA70071510A /* HeightTableViewCell2.m */,
+				6DE1888C1F1FBFB90071510A /* HeightTableViewCell3.h */,
+				6DE1888D1F1FBFB90071510A /* HeightTableViewCell3.m */,
+				6DE1888E1F1FBFB90071510A /* HeightTableViewCell3.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -405,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE188901F1FBFB90071510A /* HeightTableViewCell3.xib in Resources */,
 				6DB85B851E6EAA4800AD7C0A /* LaunchScreen.storyboard in Resources */,
 				9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */,
 				6DB85B821E6EAA4800AD7C0A /* Assets.xcassets in Resources */,
@@ -419,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5767911F1EF3FC00C2AD14 /* LowModel.m in Sources */,
+				6DE1888B1F1FBFA70071510A /* HeightTableViewCell2.m in Sources */,
 				9AF3A2581F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m in Sources */,
 				6DB85C981E6EB7D400AD7C0A /* MASViewConstraint.m in Sources */,
 				6DB85C991E6EB7D400AD7C0A /* NSArray+MASAdditions.m in Sources */,
@@ -427,10 +452,12 @@
 				6DB85C971E6EB7D400AD7C0A /* MASViewAttribute.m in Sources */,
 				6DB85C9C1E6EB7D400AD7C0A /* ViewController+MASAdditions.m in Sources */,
 				6DB85C931E6EB7D400AD7C0A /* MASCompositeConstraint.m in Sources */,
+				6DE1888F1F1FBFB90071510A /* HeightTableViewCell3.m in Sources */,
 				9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */,
 				6DB85C941E6EB7D400AD7C0A /* MASConstraint.m in Sources */,
 				6DB85C961E6EB7D400AD7C0A /* MASLayoutConstraint.m in Sources */,
 				9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */,
+				6DE188851F1FBF510071510A /* HeightModel.m in Sources */,
 				6DB85C9B1E6EB7D400AD7C0A /* View+MASAdditions.m in Sources */,
 				9A57679A1F1EF43600C2AD14 /* LowTableViewCell3.m in Sources */,
 				9A5767971F1EF42E00C2AD14 /* LowTableViewCell2.m in Sources */,
@@ -439,6 +466,7 @@
 				9A5767941F1EF41D00C2AD14 /* LowTableViewCell1.m in Sources */,
 				6DB85B771E6EAA4800AD7C0A /* main.m in Sources */,
 				6DB85C9A1E6EB7D400AD7C0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6DE188881F1FBF910071510A /* HeightTableViewCell1.m in Sources */,
 				6DB85C951E6EB7D400AD7C0A /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

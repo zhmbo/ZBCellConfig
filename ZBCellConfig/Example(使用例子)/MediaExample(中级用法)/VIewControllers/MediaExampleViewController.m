@@ -78,6 +78,7 @@ UITableViewDataSource
     ZBCellConfig *cellConfig = self.cellConfigs[indexPath.section][indexPath.row];
     
     // 根据对应的 cellConfig 获取 cell，并给 cell 赋值 根据模型显示。
+    // • dataModels: 这里由于为示例代码不是用真实数据，只起到 执行 cell 的赋值函数。在实际项目中应该传递从网络请求的真实数据。
     UITableViewCell *cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[LowModel new]]];
     
     return cell;
