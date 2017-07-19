@@ -3,12 +3,14 @@
 //  ZBCellConfig
 //
 //  Created by ZHANG BAO on 2017/7/18.
-//  Copyright © 2017年 zhangbao. All rights reserved.
+//  Copyright © 2017年 itzhangbao. All rights reserved.
 //
 
 #import "ZBRootViewController.h"
 
-@interface ZBRootViewController ()
+@interface ZBRootViewController()
+
+@property (nonatomic, strong) NSArray * dataSource;
 
 @end
 
@@ -17,82 +19,57 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    /**
+     * 初/中/高级/高级MVVM 区分
+     * 初级：此示例代码简单易懂，用于理解此框架；
+     * 中级：看完此示例代码，能够在自己的项目中正确的使用；
+     * 高级：此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子；
+     * 高级MVVM：此示例代码是将 tableView 代理及 cellconfig 封装到 viewModel 里，使项目结构更加清晰。
+     */
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // 标题
+    self.title = @"ZBCellConfig 使用示例";
+    
+    // 注册 cell
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"ID_RootTVCCell"];
+    self.tableView.rowHeight = 90;
 }
 
 #pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return self.dataSource.count;
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ID_RootTVCCell"];
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"ID_RootTVCCell"];
+    cell.textLabel.text = self.dataSource[indexPath.row][@"title"];
+    cell.textLabel.textColor = [UIColor colorWithRed:0.29 green:0.95 blue:0.63 alpha:1.00];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.detailTextLabel.text = self.dataSource[indexPath.row][@"detail"];
+    cell.detailTextLabel.textColor = [UIColor colorWithRed:0.40 green:0.22 blue:0.94 alpha:1.00];
+    cell.detailTextLabel.numberOfLines = 0;
     
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    UIViewController *vc = [[NSClassFromString(self.dataSource[indexPath.row][@"vc"]) class] new];
+    vc.title = self.dataSource[indexPath.row][@"title"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+#pragma mark - <Setter/Getter>
+- (NSArray *)dataSource
+{
+    if (!_dataSource) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"dataSource" ofType:@"plist"];
+        _dataSource = [[NSArray alloc] initWithContentsOfFile:path];
+    }
+    return _dataSource;
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

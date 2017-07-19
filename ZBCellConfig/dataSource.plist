@@ -5,34 +5,34 @@
 	<dict>
 		<key>title</key>
 		<string>初级</string>
-		<key>viewController</key>
+		<key>vc</key>
 		<string>LowExampleViewController</string>
-		<key>Detail</key>
-		<string>此示例代码简单易懂，用于理解此框架</string>
+		<key>detail</key>
+		<string>此示例代码简单易懂，用于理解此框架及如何创建 ZBCellConfig。</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>中级</string>
-		<key>viewController</key>
+		<key>vc</key>
 		<string>MediaExampleViewController</string>
-		<key>Detail</key>
-		<string>看完此示例代码，能够在自己的项目中正确的使用</string>
+		<key>detail</key>
+		<string>此示例代码主要示范快速增删及修改 cell 排列顺序，无需在 tableView 的代理中进行判断，这也是此框架的核心所在。</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>高级</string>
-		<key>viewController</key>
+		<key>vc</key>
 		<string>HeightExampleViewController</string>
-		<key>Detail</key>
-		<string>此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子</string>
+		<key>detail</key>
+		<string>此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子。及支持加载 xib 创建的 cell。同时示范标签 title 的使用。</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>高级MVVM</string>
-		<key>viewController</key>
+		<key>vc</key>
 		<string>HeightMVVMExampleViewController</string>
-		<key>Detail</key>
-		<string>此示例代码是将 tableView 代理及 cellconfig 封装到 viewModel 里，使项目结构更加清晰</string>
+		<key>detail</key>
+		<string>此示例代码是将 tableView 代理及 cellconfig 封装到 viewModel 里，使项目结构更加清晰。</string>
 	</dict>
 </array>
 </plist>

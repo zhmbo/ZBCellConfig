@@ -2,29 +2,34 @@
 //  ZBCellConfig.m
 //  ZBCellConfig
 //
-//  Created by zhangbao on 2017/3/4.
-//  Copyright © 2017年 TRZX. All rights reserved.
+//  Created by ZHANG BAO on 2017/3/4.
+//  Copyright © 2017年 itzhangbao. All rights reserved.
 //
 
 #import "ZBCellConfig.h"
 
-//判断selector有几个参数
-//static NSUInteger SelectorArgumentCount(SEL selector)
-//{
-//    NSUInteger argumentCount = 0;
-//    //sel_getName获取selector名的C字符串
-//    const char *selectorStringCursor = sel_getName(selector);
-//    char ch;
-//    //    遍历字符串有几个:来确定有几个参数
-//    while((ch = *selectorStringCursor)) {
-//        if(ch == ':') {
-//            ++argumentCount;
-//        }
-//        ++selectorStringCursor;
-//    }
-//    
-//    return argumentCount;
-//}
+///////////////////////////////////////////////////////////
+// 弃用函数，由 NSMethodSignature 的 numberOfArguments 代替 //
+//////////////////////////////////////////////////////////
+
+/* 判断selector有几个参数
+static NSUInteger SelectorArgumentCount(SEL selector)
+{
+    NSUInteger argumentCount = 0;
+    //sel_getName获取selector名的C字符串
+    const char *selectorStringCursor = sel_getName(selector);
+    char ch;
+    //    遍历字符串有几个:来确定有几个参数
+    while((ch = *selectorStringCursor)) {
+        if(ch == ':') {
+            ++argumentCount;
+        }
+        ++selectorStringCursor;
+    }
+    
+    return argumentCount;
+}
+ */
 
 @interface  NSObject(ZBPerformingObjects)
 - (void)zb_performSelector:(SEL)aSelector withObjects:(NSArray *)objects;
@@ -64,8 +69,8 @@
     self = [super init];
     if (self) {
         
+        // 赋值 0.001 已达到 section Header/Footer 的 height 达到为 0 的效果
         _sectionHeaderHeight = 0.001;
-        
         _sectionFooterHeight = 0.001;
         
     }

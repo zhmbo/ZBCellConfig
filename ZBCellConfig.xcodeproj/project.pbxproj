@@ -9,45 +9,8 @@
 /* Begin PBXBuildFile section */
 		6DB85B771E6EAA4800AD7C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85B761E6EAA4800AD7C0A /* main.m */; };
 		6DB85B7A1E6EAA4800AD7C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85B791E6EAA4800AD7C0A /* AppDelegate.m */; };
-		6DB85B7D1E6EAA4800AD7C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85B7C1E6EAA4800AD7C0A /* ViewController.m */; };
-		6DB85B801E6EAA4800AD7C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85B7E1E6EAA4800AD7C0A /* Main.storyboard */; };
 		6DB85B821E6EAA4800AD7C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */; };
 		6DB85B851E6EAA4800AD7C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85B831E6EAA4800AD7C0A /* LaunchScreen.storyboard */; };
-		6DB85B901E6EAA4900AD7C0A /* ZBCellConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85B8F1E6EAA4900AD7C0A /* ZBCellConfigTests.m */; };
-		6DB85B9B1E6EAA4900AD7C0A /* ZBCellConfigUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85B9A1E6EAA4900AD7C0A /* ZBCellConfigUITests.m */; };
-		6DB85C571E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C1D1E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.m */; };
-		6DB85C581E6EB6B500AD7C0A /* TRZXProjectDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C1F1E6EB6B500AD7C0A /* TRZXProjectDetailModel.m */; };
-		6DB85C591E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C211E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Normal@2x.png */; };
-		6DB85C5A1E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C221E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Selected@2x.png */; };
-		6DB85C5B1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_Gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C231E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_Gray@2x.png */; };
-		6DB85C5C1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C241E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_White@2x.png */; };
-		6DB85C5D1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C251E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Selected@2x.png */; };
-		6DB85C5E1E6EB6B500AD7C0A /* Icon_ProjectDetail_Commed_LeftRedIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C261E6EB6B500AD7C0A /* Icon_ProjectDetail_Commed_LeftRedIcon@2x.png */; };
-		6DB85C5F1E6EB6B500AD7C0A /* Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C271E6EB6B500AD7C0A /* Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png */; };
-		6DB85C601E6EB6B600AD7C0A /* Icon_ProjectDetail_ProjectHistory_RedDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C281E6EB6B500AD7C0A /* Icon_ProjectDetail_ProjectHistory_RedDot@2x.png */; };
-		6DB85C611E6EB6B600AD7C0A /* Icon_ProjectDetail_Share_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C291E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Normal@2x.png */; };
-		6DB85C621E6EB6B600AD7C0A /* Icon_ProjectDetail_Share_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C2A1E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Selected@2x.png */; };
-		6DB85C631E6EB6B600AD7C0A /* testIcon_backGroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C2B1E6EB6B500AD7C0A /* testIcon_backGroundImage.png */; };
-		6DB85C641E6EB6B600AD7C0A /* Target_TRZXProjectDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C2D1E6EB6B500AD7C0A /* Target_TRZXProjectDetail.m */; };
-		6DB85C661E6EB6B600AD7C0A /* TRZXProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C331E6EB6B500AD7C0A /* TRZXProjectDetailViewController.m */; };
-		6DB85C671E6EB6B600AD7C0A /* TRZXProjectDetailCommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C361E6EB6B500AD7C0A /* TRZXProjectDetailCommendTableViewCell.m */; };
-		6DB85C681E6EB6B600AD7C0A /* TRZXProjectDetailCommentOfOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C381E6EB6B500AD7C0A /* TRZXProjectDetailCommentOfOneView.m */; };
-		6DB85C691E6EB6B600AD7C0A /* TRZXProjectDetailCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C3A1E6EB6B500AD7C0A /* TRZXProjectDetailCommentTableViewCell.m */; };
-		6DB85C6A1E6EB6B600AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C3C1E6EB6B500AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.m */; };
-		6DB85C6B1E6EB6B600AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C3E1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.m */; };
-		6DB85C6C1E6EB6B600AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C3F1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.xib */; };
-		6DB85C6D1E6EB6B600AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C411E6EB6B500AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.m */; };
-		6DB85C6E1E6EB6B600AD7C0A /* TRZXProjectDetailNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C431E6EB6B500AD7C0A /* TRZXProjectDetailNavigationBar.m */; };
-		6DB85C6F1E6EB6B600AD7C0A /* TRZXProjectDetailnvestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C451E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.m */; };
-		6DB85C701E6EB6B600AD7C0A /* TRZXProjectDetailnvestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C461E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.xib */; };
-		6DB85C711E6EB6B600AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C481E6EB6B500AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.m */; };
-		6DB85C721E6EB6B600AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C4A1E6EB6B500AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.m */; };
-		6DB85C731E6EB6B600AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C4C1E6EB6B500AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.m */; };
-		6DB85C741E6EB6B600AD7C0A /* TRZXProjectDetailTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C4E1E6EB6B500AD7C0A /* TRZXProjectDetailTableViewHeaderView.m */; };
-		6DB85C751E6EB6B600AD7C0A /* TRZXProjectDetailTeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C501E6EB6B500AD7C0A /* TRZXProjectDetailTeamTableViewCell.m */; };
-		6DB85C761E6EB6B600AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C521E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.m */; };
-		6DB85C771E6EB6B600AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB85C531E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.xib */; };
-		6DB85C781E6EB6B600AD7C0A /* TRZXProjectDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C561E6EB6B500AD7C0A /* TRZXProjectDetailViewModel.m */; };
 		6DB85C931E6EB7D400AD7C0A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C7B1E6EB7D400AD7C0A /* MASCompositeConstraint.m */; };
 		6DB85C941E6EB7D400AD7C0A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C7E1E6EB7D400AD7C0A /* MASConstraint.m */; };
 		6DB85C951E6EB7D400AD7C0A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C801E6EB7D400AD7C0A /* MASConstraintMaker.m */; };
@@ -59,95 +22,26 @@
 		6DB85C9B1E6EB7D400AD7C0A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C8F1E6EB7D400AD7C0A /* View+MASAdditions.m */; };
 		6DB85C9C1E6EB7D400AD7C0A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C921E6EB7D400AD7C0A /* ViewController+MASAdditions.m */; };
 		6DB85CA01E6EB98900AD7C0A /* ZBCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB85C9F1E6EB98900AD7C0A /* ZBCellConfig.m */; };
+		9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5767871F1EEC3400C2AD14 /* dataSource.plist */; };
+		9A5767911F1EF3FC00C2AD14 /* LowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767901F1EF3FC00C2AD14 /* LowModel.m */; };
+		9A5767941F1EF41D00C2AD14 /* LowTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767931F1EF41D00C2AD14 /* LowTableViewCell1.m */; };
+		9A5767971F1EF42E00C2AD14 /* LowTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767961F1EF42E00C2AD14 /* LowTableViewCell2.m */; };
+		9A57679A1F1EF43600C2AD14 /* LowTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767991F1EF43600C2AD14 /* LowTableViewCell3.m */; };
+		9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */; };
+		9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2461F1DFF9000F2DDC0 /* LowExampleViewController.m */; };
+		9AF3A24A1F1DFFA400F2DDC0 /* MediaExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2491F1DFFA400F2DDC0 /* MediaExampleViewController.m */; };
+		9AF3A24D1F1DFFB500F2DDC0 /* HeightExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A24C1F1DFFB500F2DDC0 /* HeightExampleViewController.m */; };
+		9AF3A2581F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2571F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6DB85B8C1E6EAA4900AD7C0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DB85B6A1E6EAA4800AD7C0A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DB85B711E6EAA4800AD7C0A;
-			remoteInfo = ZBCellConfig;
-		};
-		6DB85B971E6EAA4900AD7C0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DB85B6A1E6EAA4800AD7C0A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DB85B711E6EAA4800AD7C0A;
-			remoteInfo = ZBCellConfig;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6DB85B721E6EAA4800AD7C0A /* ZBCellConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBCellConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB85B761E6EAA4800AD7C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DB85B781E6EAA4800AD7C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DB85B791E6EAA4800AD7C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DB85B7B1E6EAA4800AD7C0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DB85B7C1E6EAA4800AD7C0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6DB85B7F1E6EAA4800AD7C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB85B841E6EAA4800AD7C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB85B861E6EAA4800AD7C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DB85B8B1E6EAA4900AD7C0A /* ZBCellConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBCellConfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DB85B8F1E6EAA4900AD7C0A /* ZBCellConfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCellConfigTests.m; sourceTree = "<group>"; };
-		6DB85B911E6EAA4900AD7C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DB85B961E6EAA4900AD7C0A /* ZBCellConfigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBCellConfigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DB85B9A1E6EAA4900AD7C0A /* ZBCellConfigUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCellConfigUITests.m; sourceTree = "<group>"; };
-		6DB85B9C1E6EAA4900AD7C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DB85C1C1E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailDataModel.h; sourceTree = "<group>"; };
-		6DB85C1D1E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailDataModel.m; sourceTree = "<group>"; };
-		6DB85C1E1E6EB6B500AD7C0A /* TRZXProjectDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailModel.h; sourceTree = "<group>"; };
-		6DB85C1F1E6EB6B500AD7C0A /* TRZXProjectDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailModel.m; sourceTree = "<group>"; };
-		6DB85C211E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Back_Normal@2x.png"; sourceTree = "<group>"; };
-		6DB85C221E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Back_Selected@2x.png"; sourceTree = "<group>"; };
-		6DB85C231E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Collection_Normal_Gray@2x.png"; sourceTree = "<group>"; };
-		6DB85C241E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_White@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Collection_Normal_White@2x.png"; sourceTree = "<group>"; };
-		6DB85C251E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Collection_Selected@2x.png"; sourceTree = "<group>"; };
-		6DB85C261E6EB6B500AD7C0A /* Icon_ProjectDetail_Commed_LeftRedIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Commed_LeftRedIcon@2x.png"; sourceTree = "<group>"; };
-		6DB85C271E6EB6B500AD7C0A /* Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png"; sourceTree = "<group>"; };
-		6DB85C281E6EB6B500AD7C0A /* Icon_ProjectDetail_ProjectHistory_RedDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_ProjectHistory_RedDot@2x.png"; sourceTree = "<group>"; };
-		6DB85C291E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Share_Normal@2x.png"; sourceTree = "<group>"; };
-		6DB85C2A1E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_ProjectDetail_Share_Selected@2x.png"; sourceTree = "<group>"; };
-		6DB85C2B1E6EB6B500AD7C0A /* testIcon_backGroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testIcon_backGroundImage.png; sourceTree = "<group>"; };
-		6DB85C2C1E6EB6B500AD7C0A /* Target_TRZXProjectDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXProjectDetail.h; sourceTree = "<group>"; };
-		6DB85C2D1E6EB6B500AD7C0A /* Target_TRZXProjectDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXProjectDetail.m; sourceTree = "<group>"; };
-		6DB85C301E6EB6B500AD7C0A /* TRZXProjectDetailMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRZXProjectDetailMacro.h; path = TRZXProjectDetail/TRZXProjectDetailMacro.h; sourceTree = "<group>"; };
-		6DB85C321E6EB6B500AD7C0A /* TRZXProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailViewController.h; sourceTree = "<group>"; };
-		6DB85C331E6EB6B500AD7C0A /* TRZXProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailViewController.m; sourceTree = "<group>"; };
-		6DB85C351E6EB6B500AD7C0A /* TRZXProjectDetailCommendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailCommendTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C361E6EB6B500AD7C0A /* TRZXProjectDetailCommendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailCommendTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C371E6EB6B500AD7C0A /* TRZXProjectDetailCommentOfOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailCommentOfOneView.h; sourceTree = "<group>"; };
-		6DB85C381E6EB6B500AD7C0A /* TRZXProjectDetailCommentOfOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailCommentOfOneView.m; sourceTree = "<group>"; };
-		6DB85C391E6EB6B500AD7C0A /* TRZXProjectDetailCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailCommentTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C3A1E6EB6B500AD7C0A /* TRZXProjectDetailCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailCommentTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C3B1E6EB6B500AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailFinancingInfoTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C3C1E6EB6B500AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailFinancingInfoTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C3D1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailLeftRedTitleSectionHeaderView.h; sourceTree = "<group>"; };
-		6DB85C3E1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailLeftRedTitleSectionHeaderView.m; sourceTree = "<group>"; };
-		6DB85C3F1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXProjectDetailLeftRedTitleSectionHeaderView.xib; sourceTree = "<group>"; };
-		6DB85C401E6EB6B500AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailLeftTitleRightInfoTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C411E6EB6B500AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailLeftTitleRightInfoTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C421E6EB6B500AD7C0A /* TRZXProjectDetailNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailNavigationBar.h; sourceTree = "<group>"; };
-		6DB85C431E6EB6B500AD7C0A /* TRZXProjectDetailNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailNavigationBar.m; sourceTree = "<group>"; };
-		6DB85C441E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailnvestTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C451E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailnvestTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C461E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXProjectDetailnvestTableViewCell.xib; sourceTree = "<group>"; };
-		6DB85C471E6EB6B500AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailOnLineClassTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C481E6EB6B500AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailOnLineClassTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C491E6EB6B500AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailOnlyTextTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C4A1E6EB6B500AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailOnlyTextTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C4B1E6EB6B500AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailProjectHistoryTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C4C1E6EB6B500AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailProjectHistoryTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C4D1E6EB6B500AD7C0A /* TRZXProjectDetailTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailTableViewHeaderView.h; sourceTree = "<group>"; };
-		6DB85C4E1E6EB6B500AD7C0A /* TRZXProjectDetailTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailTableViewHeaderView.m; sourceTree = "<group>"; };
-		6DB85C4F1E6EB6B500AD7C0A /* TRZXProjectDetailTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailTeamTableViewCell.h; sourceTree = "<group>"; };
-		6DB85C501E6EB6B500AD7C0A /* TRZXProjectDetailTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailTeamTableViewCell.m; sourceTree = "<group>"; };
-		6DB85C511E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailTitleSectionHeaderView.h; sourceTree = "<group>"; };
-		6DB85C521E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailTitleSectionHeaderView.m; sourceTree = "<group>"; };
-		6DB85C531E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXProjectDetailTitleSectionHeaderView.xib; sourceTree = "<group>"; };
-		6DB85C551E6EB6B500AD7C0A /* TRZXProjectDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXProjectDetailViewModel.h; sourceTree = "<group>"; };
-		6DB85C561E6EB6B500AD7C0A /* TRZXProjectDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXProjectDetailViewModel.m; sourceTree = "<group>"; };
 		6DB85C7A1E6EB7D400AD7C0A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		6DB85C7B1E6EB7D400AD7C0A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		6DB85C7C1E6EB7D400AD7C0A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -175,24 +69,30 @@
 		6DB85C921E6EB7D400AD7C0A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		6DB85C9E1E6EB98900AD7C0A /* ZBCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCellConfig.h; sourceTree = "<group>"; };
 		6DB85C9F1E6EB98900AD7C0A /* ZBCellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCellConfig.m; sourceTree = "<group>"; };
+		9A5767871F1EEC3400C2AD14 /* dataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataSource.plist; sourceTree = "<group>"; };
+		9A57678F1F1EF3FC00C2AD14 /* LowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowModel.h; sourceTree = "<group>"; };
+		9A5767901F1EF3FC00C2AD14 /* LowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowModel.m; sourceTree = "<group>"; };
+		9A5767921F1EF41D00C2AD14 /* LowTableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowTableViewCell1.h; sourceTree = "<group>"; };
+		9A5767931F1EF41D00C2AD14 /* LowTableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowTableViewCell1.m; sourceTree = "<group>"; };
+		9A5767951F1EF42E00C2AD14 /* LowTableViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowTableViewCell2.h; sourceTree = "<group>"; };
+		9A5767961F1EF42E00C2AD14 /* LowTableViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowTableViewCell2.m; sourceTree = "<group>"; };
+		9A5767981F1EF43600C2AD14 /* LowTableViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowTableViewCell3.h; sourceTree = "<group>"; };
+		9A5767991F1EF43600C2AD14 /* LowTableViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowTableViewCell3.m; sourceTree = "<group>"; };
+		9AF3A1E71F1DF61700F2DDC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9AF3A2321F1DFC5800F2DDC0 /* ZBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRootViewController.h; sourceTree = "<group>"; };
+		9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRootViewController.m; sourceTree = "<group>"; };
+		9AF3A2451F1DFF9000F2DDC0 /* LowExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowExampleViewController.h; sourceTree = "<group>"; };
+		9AF3A2461F1DFF9000F2DDC0 /* LowExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowExampleViewController.m; sourceTree = "<group>"; };
+		9AF3A2481F1DFFA400F2DDC0 /* MediaExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaExampleViewController.h; sourceTree = "<group>"; };
+		9AF3A2491F1DFFA400F2DDC0 /* MediaExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaExampleViewController.m; sourceTree = "<group>"; };
+		9AF3A24B1F1DFFB500F2DDC0 /* HeightExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightExampleViewController.h; sourceTree = "<group>"; };
+		9AF3A24C1F1DFFB500F2DDC0 /* HeightExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightExampleViewController.m; sourceTree = "<group>"; };
+		9AF3A2561F1E04A200F2DDC0 /* HeightMVVMExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightMVVMExampleViewController.h; sourceTree = "<group>"; };
+		9AF3A2571F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightMVVMExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6DB85B6F1E6EAA4800AD7C0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B881E6EAA4900AD7C0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B931E6EAA4900AD7C0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				6DB85B741E6EAA4800AD7C0A /* ZBCellConfig */,
-				6DB85B8E1E6EAA4900AD7C0A /* ZBCellConfigTests */,
-				6DB85B991E6EAA4900AD7C0A /* ZBCellConfigUITests */,
 				6DB85B731E6EAA4800AD7C0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				6DB85B721E6EAA4800AD7C0A /* ZBCellConfig.app */,
-				6DB85B8B1E6EAA4900AD7C0A /* ZBCellConfigTests.xctest */,
-				6DB85B961E6EAA4900AD7C0A /* ZBCellConfigUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,15 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				6DB85C9D1E6EB98900AD7C0A /* ZBCellConfig */,
-				6DB85C1A1E6EB6B500AD7C0A /* TRZXProjectDetail */,
+				9AF3A1EC1F1DFC1B00F2DDC0 /* Example(使用例子) */,
 				6DB85B781E6EAA4800AD7C0A /* AppDelegate.h */,
 				6DB85B791E6EAA4800AD7C0A /* AppDelegate.m */,
-				6DB85B7B1E6EAA4800AD7C0A /* ViewController.h */,
-				6DB85B7C1E6EAA4800AD7C0A /* ViewController.m */,
-				6DB85B7E1E6EAA4800AD7C0A /* Main.storyboard */,
-				6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */,
-				6DB85B831E6EAA4800AD7C0A /* LaunchScreen.storyboard */,
-				6DB85B861E6EAA4800AD7C0A /* Info.plist */,
+				9AF3A2321F1DFC5800F2DDC0 /* ZBRootViewController.h */,
+				9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */,
 				6DB85B751E6EAA4800AD7C0A /* Supporting Files */,
 			);
 			path = ZBCellConfig;
@@ -243,128 +135,15 @@
 		6DB85B751E6EAA4800AD7C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DB85C301E6EB6B500AD7C0A /* TRZXProjectDetailMacro.h */,
+				9A5767871F1EEC3400C2AD14 /* dataSource.plist */,
+				6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */,
+				6DB85B861E6EAA4800AD7C0A /* Info.plist */,
+				6DB85B831E6EAA4800AD7C0A /* LaunchScreen.storyboard */,
 				6DB85C791E6EB7D400AD7C0A /* Masonry */,
 				6DB85B761E6EAA4800AD7C0A /* main.m */,
+				9AF3A1E71F1DF61700F2DDC0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6DB85B8E1E6EAA4900AD7C0A /* ZBCellConfigTests */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85B8F1E6EAA4900AD7C0A /* ZBCellConfigTests.m */,
-				6DB85B911E6EAA4900AD7C0A /* Info.plist */,
-			);
-			path = ZBCellConfigTests;
-			sourceTree = "<group>";
-		};
-		6DB85B991E6EAA4900AD7C0A /* ZBCellConfigUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85B9A1E6EAA4900AD7C0A /* ZBCellConfigUITests.m */,
-				6DB85B9C1E6EAA4900AD7C0A /* Info.plist */,
-			);
-			path = ZBCellConfigUITests;
-			sourceTree = "<group>";
-		};
-		6DB85C1A1E6EB6B500AD7C0A /* TRZXProjectDetail */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C2C1E6EB6B500AD7C0A /* Target_TRZXProjectDetail.h */,
-				6DB85C2D1E6EB6B500AD7C0A /* Target_TRZXProjectDetail.m */,
-				6DB85C311E6EB6B500AD7C0A /* VeiwController */,
-				6DB85C341E6EB6B500AD7C0A /* View */,
-				6DB85C541E6EB6B500AD7C0A /* ViewModel */,
-				6DB85C1B1E6EB6B500AD7C0A /* Model */,
-				6DB85C201E6EB6B500AD7C0A /* Resources */,
-			);
-			path = TRZXProjectDetail;
-			sourceTree = "<group>";
-		};
-		6DB85C1B1E6EB6B500AD7C0A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C1C1E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.h */,
-				6DB85C1D1E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.m */,
-				6DB85C1E1E6EB6B500AD7C0A /* TRZXProjectDetailModel.h */,
-				6DB85C1F1E6EB6B500AD7C0A /* TRZXProjectDetailModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6DB85C201E6EB6B500AD7C0A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C211E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Normal@2x.png */,
-				6DB85C221E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Selected@2x.png */,
-				6DB85C231E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_Gray@2x.png */,
-				6DB85C241E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_White@2x.png */,
-				6DB85C251E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Selected@2x.png */,
-				6DB85C261E6EB6B500AD7C0A /* Icon_ProjectDetail_Commed_LeftRedIcon@2x.png */,
-				6DB85C271E6EB6B500AD7C0A /* Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png */,
-				6DB85C281E6EB6B500AD7C0A /* Icon_ProjectDetail_ProjectHistory_RedDot@2x.png */,
-				6DB85C291E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Normal@2x.png */,
-				6DB85C2A1E6EB6B500AD7C0A /* Icon_ProjectDetail_Share_Selected@2x.png */,
-				6DB85C2B1E6EB6B500AD7C0A /* testIcon_backGroundImage.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		6DB85C311E6EB6B500AD7C0A /* VeiwController */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C321E6EB6B500AD7C0A /* TRZXProjectDetailViewController.h */,
-				6DB85C331E6EB6B500AD7C0A /* TRZXProjectDetailViewController.m */,
-			);
-			path = VeiwController;
-			sourceTree = "<group>";
-		};
-		6DB85C341E6EB6B500AD7C0A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C351E6EB6B500AD7C0A /* TRZXProjectDetailCommendTableViewCell.h */,
-				6DB85C361E6EB6B500AD7C0A /* TRZXProjectDetailCommendTableViewCell.m */,
-				6DB85C371E6EB6B500AD7C0A /* TRZXProjectDetailCommentOfOneView.h */,
-				6DB85C381E6EB6B500AD7C0A /* TRZXProjectDetailCommentOfOneView.m */,
-				6DB85C391E6EB6B500AD7C0A /* TRZXProjectDetailCommentTableViewCell.h */,
-				6DB85C3A1E6EB6B500AD7C0A /* TRZXProjectDetailCommentTableViewCell.m */,
-				6DB85C3B1E6EB6B500AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.h */,
-				6DB85C3C1E6EB6B500AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.m */,
-				6DB85C3D1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.h */,
-				6DB85C3E1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.m */,
-				6DB85C3F1E6EB6B500AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.xib */,
-				6DB85C401E6EB6B500AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.h */,
-				6DB85C411E6EB6B500AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.m */,
-				6DB85C421E6EB6B500AD7C0A /* TRZXProjectDetailNavigationBar.h */,
-				6DB85C431E6EB6B500AD7C0A /* TRZXProjectDetailNavigationBar.m */,
-				6DB85C441E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.h */,
-				6DB85C451E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.m */,
-				6DB85C461E6EB6B500AD7C0A /* TRZXProjectDetailnvestTableViewCell.xib */,
-				6DB85C471E6EB6B500AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.h */,
-				6DB85C481E6EB6B500AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.m */,
-				6DB85C491E6EB6B500AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.h */,
-				6DB85C4A1E6EB6B500AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.m */,
-				6DB85C4B1E6EB6B500AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.h */,
-				6DB85C4C1E6EB6B500AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.m */,
-				6DB85C4D1E6EB6B500AD7C0A /* TRZXProjectDetailTableViewHeaderView.h */,
-				6DB85C4E1E6EB6B500AD7C0A /* TRZXProjectDetailTableViewHeaderView.m */,
-				6DB85C4F1E6EB6B500AD7C0A /* TRZXProjectDetailTeamTableViewCell.h */,
-				6DB85C501E6EB6B500AD7C0A /* TRZXProjectDetailTeamTableViewCell.m */,
-				6DB85C511E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.h */,
-				6DB85C521E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.m */,
-				6DB85C531E6EB6B500AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6DB85C541E6EB6B500AD7C0A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				6DB85C551E6EB6B500AD7C0A /* TRZXProjectDetailViewModel.h */,
-				6DB85C561E6EB6B500AD7C0A /* TRZXProjectDetailViewModel.m */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6DB85C791E6EB7D400AD7C0A /* Masonry */ = {
@@ -408,6 +187,165 @@
 			path = ZBCellConfig;
 			sourceTree = "<group>";
 		};
+		9AF3A1EC1F1DFC1B00F2DDC0 /* Example(使用例子) */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A23D1F1DFF4900F2DDC0 /* LowExample(初级用法) */,
+				9AF3A2411F1DFF4900F2DDC0 /* MediaExample(中级用法) */,
+				9AF3A2391F1DFF4900F2DDC0 /* HeightExample(高级用法) */,
+				9AF3A24E1F1E044F00F2DDC0 /* HeightMVVMExample(高级用法MVVM) */,
+			);
+			path = "Example(使用例子)";
+			sourceTree = "<group>";
+		};
+		9AF3A2391F1DFF4900F2DDC0 /* HeightExample(高级用法) */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A23A1F1DFF4900F2DDC0 /* Models */,
+				9AF3A23B1F1DFF4900F2DDC0 /* VIewControllers */,
+				9AF3A23C1F1DFF4900F2DDC0 /* Views */,
+			);
+			path = "HeightExample(高级用法)";
+			sourceTree = "<group>";
+		};
+		9AF3A23A1F1DFF4900F2DDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AF3A23B1F1DFF4900F2DDC0 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A24B1F1DFFB500F2DDC0 /* HeightExampleViewController.h */,
+				9AF3A24C1F1DFFB500F2DDC0 /* HeightExampleViewController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9AF3A23C1F1DFF4900F2DDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF3A23D1F1DFF4900F2DDC0 /* LowExample(初级用法) */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A23E1F1DFF4900F2DDC0 /* Models */,
+				9AF3A23F1F1DFF4900F2DDC0 /* VIewControllers */,
+				9AF3A2401F1DFF4900F2DDC0 /* Views */,
+			);
+			path = "LowExample(初级用法)";
+			sourceTree = "<group>";
+		};
+		9AF3A23E1F1DFF4900F2DDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A57678F1F1EF3FC00C2AD14 /* LowModel.h */,
+				9A5767901F1EF3FC00C2AD14 /* LowModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AF3A23F1F1DFF4900F2DDC0 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A2451F1DFF9000F2DDC0 /* LowExampleViewController.h */,
+				9AF3A2461F1DFF9000F2DDC0 /* LowExampleViewController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9AF3A2401F1DFF4900F2DDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A5767921F1EF41D00C2AD14 /* LowTableViewCell1.h */,
+				9A5767931F1EF41D00C2AD14 /* LowTableViewCell1.m */,
+				9A5767951F1EF42E00C2AD14 /* LowTableViewCell2.h */,
+				9A5767961F1EF42E00C2AD14 /* LowTableViewCell2.m */,
+				9A5767981F1EF43600C2AD14 /* LowTableViewCell3.h */,
+				9A5767991F1EF43600C2AD14 /* LowTableViewCell3.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF3A2411F1DFF4900F2DDC0 /* MediaExample(中级用法) */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A2421F1DFF4900F2DDC0 /* Models */,
+				9AF3A2431F1DFF4900F2DDC0 /* VIewControllers */,
+				9AF3A2441F1DFF4900F2DDC0 /* Views */,
+			);
+			path = "MediaExample(中级用法)";
+			sourceTree = "<group>";
+		};
+		9AF3A2421F1DFF4900F2DDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AF3A2431F1DFF4900F2DDC0 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A2481F1DFFA400F2DDC0 /* MediaExampleViewController.h */,
+				9AF3A2491F1DFFA400F2DDC0 /* MediaExampleViewController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9AF3A2441F1DFF4900F2DDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF3A24E1F1E044F00F2DDC0 /* HeightMVVMExample(高级用法MVVM) */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A2551F1E048B00F2DDC0 /* ViewModels */,
+				9AF3A24F1F1E044F00F2DDC0 /* Models */,
+				9AF3A2501F1E044F00F2DDC0 /* VIewControllers */,
+				9AF3A2531F1E044F00F2DDC0 /* Views */,
+			);
+			path = "HeightMVVMExample(高级用法MVVM)";
+			sourceTree = "<group>";
+		};
+		9AF3A24F1F1E044F00F2DDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AF3A2501F1E044F00F2DDC0 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3A2561F1E04A200F2DDC0 /* HeightMVVMExampleViewController.h */,
+				9AF3A2571F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9AF3A2531F1E044F00F2DDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF3A2551F1E048B00F2DDC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -428,42 +366,6 @@
 			productReference = 6DB85B721E6EAA4800AD7C0A /* ZBCellConfig.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DB85B8A1E6EAA4900AD7C0A /* ZBCellConfigTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6DB85BA21E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigTests" */;
-			buildPhases = (
-				6DB85B871E6EAA4900AD7C0A /* Sources */,
-				6DB85B881E6EAA4900AD7C0A /* Frameworks */,
-				6DB85B891E6EAA4900AD7C0A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6DB85B8D1E6EAA4900AD7C0A /* PBXTargetDependency */,
-			);
-			name = ZBCellConfigTests;
-			productName = ZBCellConfigTests;
-			productReference = 6DB85B8B1E6EAA4900AD7C0A /* ZBCellConfigTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6DB85B951E6EAA4900AD7C0A /* ZBCellConfigUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6DB85BA51E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigUITests" */;
-			buildPhases = (
-				6DB85B921E6EAA4900AD7C0A /* Sources */,
-				6DB85B931E6EAA4900AD7C0A /* Frameworks */,
-				6DB85B941E6EAA4900AD7C0A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6DB85B981E6EAA4900AD7C0A /* PBXTargetDependency */,
-			);
-			name = ZBCellConfigUITests;
-			productName = ZBCellConfigUITests;
-			productReference = 6DB85B961E6EAA4900AD7C0A /* ZBCellConfigUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -471,24 +373,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = zhangbao;
+				ORGANIZATIONNAME = itzhangbao;
 				TargetAttributes = {
 					6DB85B711E6EAA4800AD7C0A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 487PQPPTGA;
 						ProvisioningStyle = Automatic;
-					};
-					6DB85B8A1E6EAA4900AD7C0A = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 487PQPPTGA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6DB85B711E6EAA4800AD7C0A;
-					};
-					6DB85B951E6EAA4900AD7C0A = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 487PQPPTGA;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6DB85B711E6EAA4800AD7C0A;
 					};
 				};
 			};
@@ -506,8 +396,6 @@
 			projectRoot = "";
 			targets = (
 				6DB85B711E6EAA4800AD7C0A /* ZBCellConfig */,
-				6DB85B8A1E6EAA4900AD7C0A /* ZBCellConfigTests */,
-				6DB85B951E6EAA4900AD7C0A /* ZBCellConfigUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -517,37 +405,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB85C5F1E6EB6B500AD7C0A /* Icon_ProjectDetail_OnlineCalss_HomeIcon@2x.png in Resources */,
-				6DB85C591E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Normal@2x.png in Resources */,
 				6DB85B851E6EAA4800AD7C0A /* LaunchScreen.storyboard in Resources */,
-				6DB85C5E1E6EB6B500AD7C0A /* Icon_ProjectDetail_Commed_LeftRedIcon@2x.png in Resources */,
-				6DB85C5B1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_Gray@2x.png in Resources */,
+				9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */,
 				6DB85B821E6EAA4800AD7C0A /* Assets.xcassets in Resources */,
-				6DB85C631E6EB6B600AD7C0A /* testIcon_backGroundImage.png in Resources */,
-				6DB85C771E6EB6B600AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.xib in Resources */,
-				6DB85B801E6EAA4800AD7C0A /* Main.storyboard in Resources */,
-				6DB85C611E6EB6B600AD7C0A /* Icon_ProjectDetail_Share_Normal@2x.png in Resources */,
-				6DB85C5C1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Normal_White@2x.png in Resources */,
-				6DB85C621E6EB6B600AD7C0A /* Icon_ProjectDetail_Share_Selected@2x.png in Resources */,
-				6DB85C5A1E6EB6B500AD7C0A /* Icon_ProjectDetail_Back_Selected@2x.png in Resources */,
-				6DB85C601E6EB6B600AD7C0A /* Icon_ProjectDetail_ProjectHistory_RedDot@2x.png in Resources */,
-				6DB85C701E6EB6B600AD7C0A /* TRZXProjectDetailnvestTableViewCell.xib in Resources */,
-				6DB85C5D1E6EB6B500AD7C0A /* Icon_ProjectDetail_Collection_Selected@2x.png in Resources */,
-				6DB85C6C1E6EB6B600AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B891E6EAA4900AD7C0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B941E6EAA4900AD7C0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,82 +418,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5767911F1EF3FC00C2AD14 /* LowModel.m in Sources */,
+				9AF3A2581F1E04A200F2DDC0 /* HeightMVVMExampleViewController.m in Sources */,
 				6DB85C981E6EB7D400AD7C0A /* MASViewConstraint.m in Sources */,
-				6DB85C581E6EB6B500AD7C0A /* TRZXProjectDetailModel.m in Sources */,
 				6DB85C991E6EB7D400AD7C0A /* NSArray+MASAdditions.m in Sources */,
+				9AF3A24A1F1DFFA400F2DDC0 /* MediaExampleViewController.m in Sources */,
+				9AF3A24D1F1DFFB500F2DDC0 /* HeightExampleViewController.m in Sources */,
 				6DB85C971E6EB7D400AD7C0A /* MASViewAttribute.m in Sources */,
-				6DB85C681E6EB6B600AD7C0A /* TRZXProjectDetailCommentOfOneView.m in Sources */,
 				6DB85C9C1E6EB7D400AD7C0A /* ViewController+MASAdditions.m in Sources */,
-				6DB85C741E6EB6B600AD7C0A /* TRZXProjectDetailTableViewHeaderView.m in Sources */,
-				6DB85C571E6EB6B500AD7C0A /* TRZXProjectDetailDataModel.m in Sources */,
 				6DB85C931E6EB7D400AD7C0A /* MASCompositeConstraint.m in Sources */,
-				6DB85C6E1E6EB6B600AD7C0A /* TRZXProjectDetailNavigationBar.m in Sources */,
-				6DB85C711E6EB6B600AD7C0A /* TRZXProjectDetailOnLineClassTableViewCell.m in Sources */,
-				6DB85C671E6EB6B600AD7C0A /* TRZXProjectDetailCommendTableViewCell.m in Sources */,
-				6DB85C6F1E6EB6B600AD7C0A /* TRZXProjectDetailnvestTableViewCell.m in Sources */,
+				9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */,
 				6DB85C941E6EB7D400AD7C0A /* MASConstraint.m in Sources */,
-				6DB85C721E6EB6B600AD7C0A /* TRZXProjectDetailOnlyTextTableViewCell.m in Sources */,
-				6DB85C761E6EB6B600AD7C0A /* TRZXProjectDetailTitleSectionHeaderView.m in Sources */,
-				6DB85C691E6EB6B600AD7C0A /* TRZXProjectDetailCommentTableViewCell.m in Sources */,
-				6DB85B7D1E6EAA4800AD7C0A /* ViewController.m in Sources */,
-				6DB85C6A1E6EB6B600AD7C0A /* TRZXProjectDetailFinancingInfoTableViewCell.m in Sources */,
-				6DB85C6D1E6EB6B600AD7C0A /* TRZXProjectDetailLeftTitleRightInfoTableViewCell.m in Sources */,
 				6DB85C961E6EB7D400AD7C0A /* MASLayoutConstraint.m in Sources */,
+				9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */,
 				6DB85C9B1E6EB7D400AD7C0A /* View+MASAdditions.m in Sources */,
+				9A57679A1F1EF43600C2AD14 /* LowTableViewCell3.m in Sources */,
+				9A5767971F1EF42E00C2AD14 /* LowTableViewCell2.m in Sources */,
 				6DB85B7A1E6EAA4800AD7C0A /* AppDelegate.m in Sources */,
-				6DB85C731E6EB6B600AD7C0A /* TRZXProjectDetailProjectHistoryTableViewCell.m in Sources */,
 				6DB85CA01E6EB98900AD7C0A /* ZBCellConfig.m in Sources */,
+				9A5767941F1EF41D00C2AD14 /* LowTableViewCell1.m in Sources */,
 				6DB85B771E6EAA4800AD7C0A /* main.m in Sources */,
 				6DB85C9A1E6EB7D400AD7C0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				6DB85C641E6EB6B600AD7C0A /* Target_TRZXProjectDetail.m in Sources */,
 				6DB85C951E6EB7D400AD7C0A /* MASConstraintMaker.m in Sources */,
-				6DB85C751E6EB6B600AD7C0A /* TRZXProjectDetailTeamTableViewCell.m in Sources */,
-				6DB85C781E6EB6B600AD7C0A /* TRZXProjectDetailViewModel.m in Sources */,
-				6DB85C661E6EB6B600AD7C0A /* TRZXProjectDetailViewController.m in Sources */,
-				6DB85C6B1E6EB6B600AD7C0A /* TRZXProjectDetailLeftRedTitleSectionHeaderView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B871E6EAA4900AD7C0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DB85B901E6EAA4900AD7C0A /* ZBCellConfigTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DB85B921E6EAA4900AD7C0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DB85B9B1E6EAA4900AD7C0A /* ZBCellConfigUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6DB85B8D1E6EAA4900AD7C0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DB85B711E6EAA4800AD7C0A /* ZBCellConfig */;
-			targetProxy = 6DB85B8C1E6EAA4900AD7C0A /* PBXContainerItemProxy */;
-		};
-		6DB85B981E6EAA4900AD7C0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DB85B711E6EAA4800AD7C0A /* ZBCellConfig */;
-			targetProxy = 6DB85B971E6EAA4900AD7C0A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6DB85B7E1E6EAA4800AD7C0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DB85B7F1E6EAA4800AD7C0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6DB85B831E6EAA4800AD7C0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -738,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
+				GCC_PREFIX_HEADER = ZBCellConfig/PrefixHeader.pch;
 				INFOPLIST_FILE = ZBCellConfig/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -751,61 +564,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 487PQPPTGA;
+				GCC_PREFIX_HEADER = ZBCellConfig/PrefixHeader.pch;
 				INFOPLIST_FILE = ZBCellConfig/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangbao.ZBCellConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6DB85BA31E6EAA4900AD7C0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBCellConfigTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangbao.ZBCellConfigTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBCellConfig.app/ZBCellConfig";
-			};
-			name = Debug;
-		};
-		6DB85BA41E6EAA4900AD7C0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBCellConfigTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangbao.ZBCellConfigTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBCellConfig.app/ZBCellConfig";
-			};
-			name = Release;
-		};
-		6DB85BA61E6EAA4900AD7C0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBCellConfigUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangbao.ZBCellConfigUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZBCellConfig;
-			};
-			name = Debug;
-		};
-		6DB85BA71E6EAA4900AD7C0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 487PQPPTGA;
-				INFOPLIST_FILE = ZBCellConfigUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangbao.ZBCellConfigUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ZBCellConfig;
 			};
 			name = Release;
 		};
@@ -826,24 +590,6 @@
 			buildConfigurations = (
 				6DB85BA01E6EAA4900AD7C0A /* Debug */,
 				6DB85BA11E6EAA4900AD7C0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6DB85BA21E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6DB85BA31E6EAA4900AD7C0A /* Debug */,
-				6DB85BA41E6EAA4900AD7C0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6DB85BA51E6EAA4900AD7C0A /* Build configuration list for PBXNativeTarget "ZBCellConfigUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6DB85BA61E6EAA4900AD7C0A /* Debug */,
-				6DB85BA71E6EAA4900AD7C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

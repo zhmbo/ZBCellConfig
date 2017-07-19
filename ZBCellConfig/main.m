@@ -2,8 +2,8 @@
 //  main.m
 //  ZBCellConfig
 //
-//  Created by zhangbao on 2017/3/7.
-//  Copyright © 2017年 zhangbao. All rights reserved.
+//  Created by ZHANG BAO on 2017/3/7.
+//  Copyright © 2017年 itzhangbao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

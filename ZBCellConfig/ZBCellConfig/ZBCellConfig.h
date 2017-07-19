@@ -2,19 +2,29 @@
 //  ZBCellConfig.h
 //  ZBCellConfig
 //
-//  Created by zhangbao on 2017/3/4.
-//  Copyright © 2017年 TRZX. All rights reserved.
-//
+//  Created by ZHANG BAO on 2017/3/4.
+//  Copyright © 2017年 itzhangbao. All rights reserved.
+//  
+
+/**
+ * 请仔细阅读示例代码
+ * ZBCellConfig 对象实例会将 tableView 中 cell 所需的基本信息存储下来，然后放到数组中进行管理；
+ * 每个 ZBCellConfig 实例与 tableView 中想要显示的 cell 相对应。（但注意，是"想要显示的"cell，由于cell的重用，实际上cell并不会生成那么多）
+ 
+ * 优点：改变不同类型cell的顺序、增删时，极为方便，只需改变用于存放 ZBCellConfig 的数组即可，** 重点是无需在多个tableView代理方法中逐个修改 **
+ */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 @interface ZBCellConfig : NSObject
 
+#pragma mark - <参数>
 /**
  标题 - 如“我的订单”，对不同种cell进行不同设置时，可以通过 其对应的 cellConfig.title 进行判断
  */
 @property (nonatomic, strong) NSString *title;
+
 /**
  cell类
  */
@@ -24,6 +34,11 @@
  cell 显示数据模型的方法
  */
 @property (nonatomic, assign) SEL showCellInfoMethod;
+
+/**
+ cell 高度 (固定) - * 动态 cell 高度查看 Demo 中 【HeightExample(高级用法)】*
+ */
+@property (nonatomic, assign) CGFloat cellHeight;
 
 /**
  指定 cell 重用ID，默认使用类名作为重用ID
@@ -73,6 +88,7 @@
 /// 预留属性remark
 @property (nonatomic, strong) NSString *remark;
 
+#pragma mark - <便利构造器 - 返回 cellConfig 实例>
 /**
  便利构造器(只有cell)
  
@@ -115,11 +131,12 @@
         showSectionHeaderInfoMethod:(SEL)showSectionHeaderInfoMethod
         showSectionFooterInfoMethod:(SEL)showSectionFooterInfoMethod;
 
+#pragma mark - <获取 cell>
 /**
  根据 cellConfig 生成 cell
 
  @param tableView tableView
- @param dataModels 数据模型
+ @param dataModels 数据模型 对应初始化 cellconfig 是的 showCellInfoMethod，参数为数组的形式
  @return cell
  */
 - (UITableViewCell *)cellOfCellConfigWithTableView:(UITableView *)tableView
@@ -137,6 +154,7 @@
                                         dataModels:(NSArray *)dataModels
                                              isNib:(BOOL)isNib;
 
+#pragma mark - <获取 sectionHeaderView>
 /**
  根据 cellConfig 生成 sectionHeaderView
  
@@ -158,6 +176,7 @@
                                                             dataModels:(NSArray *)dataModels
                                                                  isNib:(BOOL)isNib;
 
+#pragma mark - <获取 sectionFooterView>
 /**
  根据 cellConfig 生成 sectionFooterView
  
@@ -180,6 +199,7 @@
                                                              dataModels:(NSArray *)dataModels
                                                                   isNib:(BOOL)isNib;
 
+#pragma mark - <区分 cell 方法>
 /**
  根据 cell 类 比较是否是当前 cellConfig
 

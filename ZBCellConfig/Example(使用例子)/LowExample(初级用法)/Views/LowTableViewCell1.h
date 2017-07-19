@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class LowModel;
+
 @interface LowTableViewCell1 : UITableViewCell
+
+@property (nonatomic, strong) LowModel * model;
 
 @end
