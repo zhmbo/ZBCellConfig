@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>初级</string>
+		<key>viewController</key>
+		<string>LowExampleViewController</string>
+		<key>Detail</key>
+		<string>此示例代码简单易懂，用于理解此框架</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>中级</string>
+		<key>viewController</key>
+		<string>MediaExampleViewController</string>
+		<key>Detail</key>
+		<string>看完此示例代码，能够在自己的项目中正确的使用</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>高级</string>
+		<key>viewController</key>
+		<string>HeightExampleViewController</string>
+		<key>Detail</key>
+		<string>此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>高级MVVM</string>
+		<key>viewController</key>
+		<string>HeightMVVMExampleViewController</string>
+		<key>Detail</key>
+		<string>此示例代码是将 tableView 代理及 cellconfig 封装到 viewModel 里，使项目结构更加清晰</string>
+	</dict>
+</array>
+</plist>
