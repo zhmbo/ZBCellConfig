@@ -1,4 +1,4 @@
-![](http://upload-images.jianshu.io/upload_images/1874013-7f814c29283a4728.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/ZBCellConfig.png)
 
 > 当一个 tableView 中的 cell 类型过多时，我们务必会在 tableView 的各个代理中做这样那样的判断，当需要增加一种 cell，或调换 cell 的顺序的时候我们就会在 tableView 的各个代理中进行修改判断。
 > 使用 **[ZBCellConfig](https://github.com/itzhangbao/ZBCellConfig)** 可以应对各种变态需求，当增删、调换 cell 的顺序时，只需一键配置。
@@ -9,7 +9,7 @@
 * 优点：改变不同类型 cell 的顺序、增删时，极为方便，只需改变用于存放 ZBCellConfig 的数组即可，** 重点是无需在多个tableView代理方法中逐个修改 **。
 
 ## 结构
-![目录结构](http://upload-images.jianshu.io/upload_images/1874013-a430e51028ed5f0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![目录结构](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/目录结构.png)
 
 ## 使用
 - 支持 cocoapods 导入  `pod  'ZBCellConfig'`
@@ -19,7 +19,7 @@
 > 请下载示例项目查看详细使用方法及实际中如何使用 [GitHub下载地址](https://github.com/itzhangbao/ZBCellConfig)。
 > 初、中、高、高 MVVM 内容上是一样的，区别在于没一级别知识点递增。
 
-![Demo 展示](http://upload-images.jianshu.io/upload_images/1874013-0c91fbfc2ad9bf5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Demo 展示](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/Demo示例.png)
 
 ### 知识点 - 基本使用
 1 . 首先在控制器中声明存放 ZBCellConfig 实例的二维数组
@@ -49,8 +49,8 @@
 ```
 2-2 . 增删只需这样：
 
-![增删操作.gif](http://upload-images.jianshu.io/upload_images/1874013-60f146e4c4611057.gif?imageMogr2/auto-orient/strip)
-![效果图.gif](http://upload-images.jianshu.io/upload_images/1874013-7460b89d4c28f6d6.gif?imageMogr2/auto-orient/strip)
+![增删操作.gif](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/增删操作.gif)
+![效果图.gif](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/增删效果.gif)
 
 3 . tableView 代理中实现部分
 
@@ -93,7 +93,7 @@ _heightTableView.rowHeight = UITableViewAutomaticDimension;
 ```
 
 2 . cell 需采用 AutoLayout 布局，masory 或 xib 托线的形式皆可，约束规定上左下右还有让 cell 知道内容的高：
-![AutoLayout约束](http://upload-images.jianshu.io/upload_images/1874013-d18840b38f5bb3c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![AutoLayout约束](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/约束.png)
 
 ### 知识点 - tableView style
 1. UITableViewStylePlain 和 UITableViewStyleGrouped 区别
