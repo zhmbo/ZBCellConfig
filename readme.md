@@ -35,19 +35,20 @@
 
 ```
 -  (NSMutableArray<NSArray<ZBCellConfig *> *> *)cellConfigs {
-_cellConfigs = [[NSMutableArray alloc] init];
-// cell1
-ZBCellConfig *cell1Config = [ZBCellConfig cellConfigWithClass:[LowTableViewCell1 class] showCellInfoMethod:@selector(setModel:)];
-[_cellConfigs addObject:@[cell1Config]];
-// cell2
-ZBCellConfig *cell2Config = [ZBCellConfig cellConfigWithClass:[LowTableViewCell1 class] showCellInfoMethod:@selector(setModel:)];
-[_cellConfigs addObject:@[cell2Config]];
-// cell3
-....
-return _cellConfigs;
+    _cellConfigs = [[NSMutableArray alloc] init];
+    // cell1
+    ZBCellConfig *cell1Config = [ZBCellConfig cellConfigWithClass:[LowTableViewCell1 class] showCellInfoMethod:@selector(setModel:)];
+    [_cellConfigs addObject:@[cell1Config]];
+    // cell2
+    ZBCellConfig *cell2Config = [ZBCellConfig cellConfigWithClass:[LowTableViewCell1 class] showCellInfoMethod:@selector(setModel:)];
+    [_cellConfigs addObject:@[cell2Config]];
+    // cell3
+    ....
+    return _cellConfigs;
 }
 ```
 2-2 . 增删只需这样：
+
 ![增删操作.gif](http://upload-images.jianshu.io/upload_images/1874013-60f146e4c4611057.gif?imageMogr2/auto-orient/strip)
 ![效果图.gif](http://upload-images.jianshu.io/upload_images/1874013-7460b89d4c28f6d6.gif?imageMogr2/auto-orient/strip)
 
@@ -56,23 +57,23 @@ return _cellConfigs;
 ```
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-return self.cellConfigs.count;
+    return self.cellConfigs.count;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-return [self.cellConfigs[section] count];
+    return [self.cellConfigs[section] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-// 根据 indexPath 获取 对应的 cellConfig
-ZBCellConfig *cellConfig = self.cellConfigs[indexPath.section][indexPath.row];
+    // 根据 indexPath 获取 对应的 cellConfig
+    ZBCellConfig *cellConfig = self.cellConfigs[indexPath.section][indexPath.row];
 
-// 根据对应的 cellConfig 获取 cell，并给 cell 赋值 根据模型显示。
-// • dataModels: 这里由于为示例代码不是用真实数据，只起到 执行 cell 的赋值函数。在实际项目中应该传递从网络请求的真实数据。
-UITableViewCell *cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[LowModel new]]];
+    // 根据对应的 cellConfig 获取 cell，并给 cell 赋值 根据模型显示。
+    // • dataModels: 这里由于为示例代码不是用真实数据，只起到 执行 cell 的赋值函数。在实际项目中应该传递从网络请求的真实数据。
+    UITableViewCell *cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[LowModel new]]];
 
-return cell;
+    return cell;
 }
 ```
 
@@ -106,25 +107,25 @@ _heightTableView.rowHeight = UITableViewAutomaticDimension;
 函数实现部分：
 
 ```
-// 签名
-NSMethodSignature *signature = [[self class] instanceMethodSignatureForSelector:aSelector];
-if (signature == nil) {
-NSAssert(false, @"LINE=%d ERROR - 找不到 %@ 方法", __LINE__ ,NSStringFromSelector(aSelector));
-}
-// 包装
-NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
-// 设置调用者
-[invocation setTarget:self];
-// 设置调用的方法 与 NSMethodSignature 签名的方法一致
-[invocation setSelector:aSelector];
-// 0为target 1为_cmd 所以从2索引
-for (int i = 0; i < (signature.numberOfArguments - 2); i++) {
-id dataModel = i < objects.count ? objects[i] : nil;
-[invocation setArgument:&dataModel atIndex:i+2];
-}
-// retain 所有参数，防止释放
-[invocation retainArguments];
-[invocation invoke];
+    // 签名
+    NSMethodSignature *signature = [[self class] instanceMethodSignatureForSelector:aSelector];
+    if (signature == nil) {
+        NSAssert(false, @"LINE=%d ERROR - 找不到 %@ 方法", __LINE__ ,NSStringFromSelector(aSelector));
+    }
+    // 包装
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    // 设置调用者
+    [invocation setTarget:self];
+    // 设置调用的方法 与 NSMethodSignature 签名的方法一致
+    [invocation setSelector:aSelector];
+    // 0为target 1为_cmd 所以从2索引
+    for (int i = 0; i < (signature.numberOfArguments - 2); i++) {
+        id dataModel = i < objects.count ? objects[i] : nil;
+        [invocation setArgument:&dataModel atIndex:i+2];
+    }
+    // retain 所有参数，防止释放
+    [invocation retainArguments];
+    [invocation invoke];
 ```
 
 # 总结
