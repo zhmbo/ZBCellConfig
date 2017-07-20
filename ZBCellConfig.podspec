@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZBCellConfig"
-  s.version      = "0.0.5"
+  s.version      = "0.0.7"
   s.summary      = "ZBCellConfig."
 
   # This description is used to generate tags and improve search results.
