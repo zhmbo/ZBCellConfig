@@ -35,6 +35,11 @@
 		9A8F01C71F204CE300200667 /* HeightMVVMTableViewServeice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F01C61F204CE300200667 /* HeightMVVMTableViewServeice.m */; };
 		9A8F01CA1F204D1300200667 /* HeightMVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F01C91F204D1300200667 /* HeightMVVMModel.m */; };
 		9A8F01CC1F20525500200667 /* ZBCellConfig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01CB1F20525500200667 /* ZBCellConfig.png */; };
+		9A8F01FA1F2082E500200667 /* 增删效果.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01F51F2082E500200667 /* 增删效果.gif */; };
+		9A8F01FB1F2082E500200667 /* 增删操作.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01F61F2082E500200667 /* 增删操作.gif */; };
+		9A8F01FC1F2082E500200667 /* 约束.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01F71F2082E500200667 /* 约束.png */; };
+		9A8F01FD1F2082E500200667 /* Demo示例.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01F81F2082E500200667 /* Demo示例.png */; };
+		9A8F01FE1F2082E500200667 /* 目录结构.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01F91F2082E500200667 /* 目录结构.png */; };
 		9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */; };
 		9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2461F1DFF9000F2DDC0 /* LowExampleViewController.m */; };
 		9AF3A24A1F1DFFA400F2DDC0 /* MediaExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2491F1DFFA400F2DDC0 /* MediaExampleViewController.m */; };
@@ -100,6 +105,11 @@
 		9A8F01C81F204D1300200667 /* HeightMVVMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightMVVMModel.h; sourceTree = "<group>"; };
 		9A8F01C91F204D1300200667 /* HeightMVVMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightMVVMModel.m; sourceTree = "<group>"; };
 		9A8F01CB1F20525500200667 /* ZBCellConfig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZBCellConfig.png; sourceTree = "<group>"; };
+		9A8F01F51F2082E500200667 /* 增删效果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "增删效果.gif"; sourceTree = "<group>"; };
+		9A8F01F61F2082E500200667 /* 增删操作.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "增删操作.gif"; sourceTree = "<group>"; };
+		9A8F01F71F2082E500200667 /* 约束.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "约束.png"; sourceTree = "<group>"; };
+		9A8F01F81F2082E500200667 /* Demo示例.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demo示例.png"; sourceTree = "<group>"; };
+		9A8F01F91F2082E500200667 /* 目录结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目录结构.png"; sourceTree = "<group>"; };
 		9AF3A1E71F1DF61700F2DDC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9AF3A2321F1DFC5800F2DDC0 /* ZBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRootViewController.h; sourceTree = "<group>"; };
 		9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRootViewController.m; sourceTree = "<group>"; };
@@ -158,6 +168,11 @@
 			isa = PBXGroup;
 			children = (
 				9A8F01CB1F20525500200667 /* ZBCellConfig.png */,
+				9A8F01F51F2082E500200667 /* 增删效果.gif */,
+				9A8F01F61F2082E500200667 /* 增删操作.gif */,
+				9A8F01F71F2082E500200667 /* 约束.png */,
+				9A8F01F81F2082E500200667 /* Demo示例.png */,
+				9A8F01F91F2082E500200667 /* 目录结构.png */,
 				9A5767871F1EEC3400C2AD14 /* dataSource.plist */,
 				6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */,
 				6DB85B861E6EAA4800AD7C0A /* Info.plist */,
@@ -443,9 +458,14 @@
 			files = (
 				6DE188901F1FBFB90071510A /* HeightTableViewCell3.xib in Resources */,
 				9A8F01CC1F20525500200667 /* ZBCellConfig.png in Resources */,
+				9A8F01FA1F2082E500200667 /* 增删效果.gif in Resources */,
 				6DB85B851E6EAA4800AD7C0A /* LaunchScreen.storyboard in Resources */,
 				9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */,
+				9A8F01FE1F2082E500200667 /* 目录结构.png in Resources */,
+				9A8F01FB1F2082E500200667 /* 增删操作.gif in Resources */,
+				9A8F01FC1F2082E500200667 /* 约束.png in Resources */,
 				6DB85B821E6EAA4800AD7C0A /* Assets.xcassets in Resources */,
+				9A8F01FD1F2082E500200667 /* Demo示例.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
