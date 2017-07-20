@@ -24,7 +24,7 @@
 		<key>vc</key>
 		<string>HeightExampleViewController</string>
 		<key>detail</key>
-		<string>此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子。及支持加载 xib 创建的 cell。同时示范标签 title 的使用。</string>
+		<string>此示例代码是针对于 iOS8+ 系统的 cell 高度自适应一个例子。及支持加载 xib 创建的 cell。isIdentiFier：的使用</string>
 	</dict>
 	<dict>
 		<key>title</key>

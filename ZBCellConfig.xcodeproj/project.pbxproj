@@ -32,6 +32,9 @@
 		9A5767941F1EF41D00C2AD14 /* LowTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767931F1EF41D00C2AD14 /* LowTableViewCell1.m */; };
 		9A5767971F1EF42E00C2AD14 /* LowTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767961F1EF42E00C2AD14 /* LowTableViewCell2.m */; };
 		9A57679A1F1EF43600C2AD14 /* LowTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5767991F1EF43600C2AD14 /* LowTableViewCell3.m */; };
+		9A8F01C71F204CE300200667 /* HeightMVVMTableViewServeice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F01C61F204CE300200667 /* HeightMVVMTableViewServeice.m */; };
+		9A8F01CA1F204D1300200667 /* HeightMVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F01C91F204D1300200667 /* HeightMVVMModel.m */; };
+		9A8F01CC1F20525500200667 /* ZBCellConfig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F01CB1F20525500200667 /* ZBCellConfig.png */; };
 		9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */; };
 		9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2461F1DFF9000F2DDC0 /* LowExampleViewController.m */; };
 		9AF3A24A1F1DFFA400F2DDC0 /* MediaExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3A2491F1DFFA400F2DDC0 /* MediaExampleViewController.m */; };
@@ -92,6 +95,11 @@
 		9A5767961F1EF42E00C2AD14 /* LowTableViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowTableViewCell2.m; sourceTree = "<group>"; };
 		9A5767981F1EF43600C2AD14 /* LowTableViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowTableViewCell3.h; sourceTree = "<group>"; };
 		9A5767991F1EF43600C2AD14 /* LowTableViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowTableViewCell3.m; sourceTree = "<group>"; };
+		9A8F01C51F204CE300200667 /* HeightMVVMTableViewServeice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightMVVMTableViewServeice.h; sourceTree = "<group>"; };
+		9A8F01C61F204CE300200667 /* HeightMVVMTableViewServeice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightMVVMTableViewServeice.m; sourceTree = "<group>"; };
+		9A8F01C81F204D1300200667 /* HeightMVVMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightMVVMModel.h; sourceTree = "<group>"; };
+		9A8F01C91F204D1300200667 /* HeightMVVMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightMVVMModel.m; sourceTree = "<group>"; };
+		9A8F01CB1F20525500200667 /* ZBCellConfig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZBCellConfig.png; sourceTree = "<group>"; };
 		9AF3A1E71F1DF61700F2DDC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9AF3A2321F1DFC5800F2DDC0 /* ZBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBRootViewController.h; sourceTree = "<group>"; };
 		9AF3A2331F1DFC5800F2DDC0 /* ZBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBRootViewController.m; sourceTree = "<group>"; };
@@ -149,6 +157,7 @@
 		6DB85B751E6EAA4800AD7C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A8F01CB1F20525500200667 /* ZBCellConfig.png */,
 				9A5767871F1EEC3400C2AD14 /* dataSource.plist */,
 				6DB85B811E6EAA4800AD7C0A /* Assets.xcassets */,
 				6DB85B861E6EAA4800AD7C0A /* Info.plist */,
@@ -342,6 +351,8 @@
 		9AF3A24F1F1E044F00F2DDC0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A8F01C81F204D1300200667 /* HeightMVVMModel.h */,
+				9A8F01C91F204D1300200667 /* HeightMVVMModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -365,6 +376,8 @@
 		9AF3A2551F1E048B00F2DDC0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9A8F01C51F204CE300200667 /* HeightMVVMTableViewServeice.h */,
+				9A8F01C61F204CE300200667 /* HeightMVVMTableViewServeice.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -429,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE188901F1FBFB90071510A /* HeightTableViewCell3.xib in Resources */,
+				9A8F01CC1F20525500200667 /* ZBCellConfig.png in Resources */,
 				6DB85B851E6EAA4800AD7C0A /* LaunchScreen.storyboard in Resources */,
 				9A5767881F1EEC3400C2AD14 /* dataSource.plist in Resources */,
 				6DB85B821E6EAA4800AD7C0A /* Assets.xcassets in Resources */,
@@ -455,8 +469,10 @@
 				6DE1888F1F1FBFB90071510A /* HeightTableViewCell3.m in Sources */,
 				9AF3A2471F1DFF9000F2DDC0 /* LowExampleViewController.m in Sources */,
 				6DB85C941E6EB7D400AD7C0A /* MASConstraint.m in Sources */,
+				9A8F01C71F204CE300200667 /* HeightMVVMTableViewServeice.m in Sources */,
 				6DB85C961E6EB7D400AD7C0A /* MASLayoutConstraint.m in Sources */,
 				9AF3A2341F1DFC5800F2DDC0 /* ZBRootViewController.m in Sources */,
+				9A8F01CA1F204D1300200667 /* HeightMVVMModel.m in Sources */,
 				6DE188851F1FBF510071510A /* HeightModel.m in Sources */,
 				6DB85C9B1E6EB7D400AD7C0A /* View+MASAdditions.m in Sources */,
 				9A57679A1F1EF43600C2AD14 /* LowTableViewCell3.m in Sources */,

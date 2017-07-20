@@ -1,12 +1,13 @@
 //
-//  HeightExampleViewController.m
+//  HeightMVVMTableViewServeice.m
 //  ZBCellConfig
 //
-//  Created by ZHANG BAO on 2017/7/18.
+//  Created by ZHANG BAO on 2017/7/20.
 //  Copyright © 2017年 itzhangbao. All rights reserved.
 //
 
-#import "HeightExampleViewController.h"
+#import "HeightMVVMTableViewServeice.h"
+
 /**
  * 引用 ZBCellConfig (一套友好的 tableViewCell 管理方案)
  */
@@ -22,45 +23,18 @@
 /**
  * 数据模型
  */
-#import "HeightModel.h"
+#import "HeightMVVMModel.h"
 
-
-@interface HeightExampleViewController ()
-<
-UITableViewDelegate,
-UITableViewDataSource
->
-
-@property (nonatomic, strong) UITableView * heightTableView;
+@interface HeightMVVMTableViewServeice()
 
 /**
  * 二维数组 (相当于 tableView 的数据结构，第一层是 section，第二层放 cell)
  */
 @property (nonatomic, strong) NSMutableArray <NSArray <ZBCellConfig *> *> * cellConfigs;
 
-/**
- * 展示 ZBCellConfig 的便捷增删功能特性，用于标记是否显示 cell2
- */
-@property (nonatomic, assign) BOOL hasCell2;
-
 @end
 
-@implementation HeightExampleViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    [self.view addSubview:self.heightTableView];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"曾/删" style:UIBarButtonItemStyleDone target:self action:@selector(addOrDeleteCell:)];
-}
-- (void)addOrDeleteCell:(UIBarButtonItem *)sender
-{
-    _hasCell2 = !_hasCell2;
-    // 刷新数据
-    [self.heightTableView reloadData];
-}
-
+@implementation HeightMVVMTableViewServeice
 
 #pragma mark - <UITableView Delegate/DataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -82,48 +56,19 @@ UITableViewDataSource
     // 根据对应的 cellConfig 获取 cell，并给 cell 赋值 根据模型显示。
     // • dataModels: 这里由于为示例代码不是用真实数据，只起到 执行 cell 的赋值函数。在实际项目中应该传递从网络请求的真实数据。
     if ([cellConfig isIdentiFier:[HeightTableViewCell3 class]]) { // 判断当前cell类 为 HeightTableViewCell3 时使用 xib 加载，因为 HeightTableViewCell3 采用的xib构建的
-        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[HeightModel new]] isNib:YES];
+        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[HeightMVVMModel new]] isNib:YES];
     }else {
-        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[HeightModel new]]];
+        cell = [cellConfig cellOfCellConfigWithTableView:tableView dataModels:@[[HeightMVVMModel new]]];
     }
     
     return cell;
 }
-
-/* cell 使用 layout进行约束， 配合 tableview estimatedRowHeight 不需要此代理
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // 根据 indexPath 获取 对应的 cellConfig
-    ZBCellConfig *cellConfig = self.cellConfigs[indexPath.section][indexPath.row];
-    // 返回 cell 高度
-    return cellConfig.cellHeight;
-}
-*/
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-#pragma mark - <Setter/Getter>
-- (UITableView *)heightTableView
-{
-    if (!_heightTableView) {
-        _heightTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-        _heightTableView.delegate = self;
-        _heightTableView.dataSource = self;
-        /**
-         * default is 0, which means there is no estimate
-         * estimatedRowHeight 默认为 0，不估算cell高度
-         * 赋值不为 0 时候，开启cell估值配合 layout 约束，进行cell高度自适应
-         * 也就是说想要自动布局 cell 高度就给这个 estimatedRowHeight 属性赋值，值为你所有 cell 的平均高度的一个估值
-         */
-        _heightTableView.estimatedRowHeight = 100;
-        // iOS8 系统中 rowHeight 的默认值已经设置成了 UITableViewAutomaticDimension
-        _heightTableView.rowHeight = UITableViewAutomaticDimension;
-    }
-    return _heightTableView;
-}
 
 // cellconfigs
 -  (NSMutableArray<NSArray<ZBCellConfig *> *> *)cellConfigs
@@ -163,5 +108,6 @@ UITableViewDataSource
     
     return _cellConfigs;
 }
+
 
 @end
