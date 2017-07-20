@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZBCellConfig"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "ZBCellConfig."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is ZBCellConfig
                    DESC
 
-  s.homepage     = "https://github.com/zhang-bao/ZBCellConfig.git"
+  s.homepage     = "https://github.com/itzhangbao/ZBCellConfig.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
