@@ -1,9 +1,7 @@
-# 前言
+![](http://upload-images.jianshu.io/upload_images/1874013-7f814c29283a4728.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > 当一个 tableView 中的 cell 类型过多时，我们务必会在 tableView 的各个代理中做这样那样的判断，当需要增加一种 cell，或调换 cell 的顺序的时候我们就会在 tableView 的各个代理中进行修改判断。
 > 使用 **[ZBCellConfig](https://github.com/itzhangbao/ZBCellConfig)** 可以应对各种变态需求，当增删、调换 cell 的顺序时，只需一键配置。
-
-![](http://upload-images.jianshu.io/upload_images/1874013-7f814c29283a4728.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 简介
 * ZBCellConfig 对象实例会将 tableView 中 cell 所需的基本信息存储下来，然后放到数组中进行管理；
@@ -18,7 +16,6 @@
 - 直接讲文件拖拽到项目中 `#import "ZBCellConfig.h"`
 
 ## 知识点
-***
 > 请下载示例项目查看详细使用方法及实际中如何使用 [GitHub下载地址](https://github.com/itzhangbao/ZBCellConfig)。
 > 初、中、高、高 MVVM 内容上是一样的，区别在于没一级别知识点递增。
 
@@ -131,12 +128,11 @@ id dataModel = i < objects.count ? objects[i] : nil;
 ```
 
 # 总结
-***
 > 把将要展示的几种 cell的基本信息 以 tableView 的数据结构二维数组的形式存放，储存基本配置并不会生成多余的 cell，内部创建采用 tableView 的重用机制。示例 Demo 中注释详细，[Demo下载地址](https://github.com/itzhangbao/ZBCellConfig)。
 
 ***
 > *** If I have no knife,I can't protect you.If I had a sword,I can't hold you. 
 <br>
-如果我没有刀，我就不能保护你。如果我有刀，我就不能拥抱你。
+> 如果我没有刀，我就不能保护你。如果我有刀，我就不能拥抱你。
 <br>
-————《剪刀手爱德华》***
+> ————《剪刀手爱德华》***
