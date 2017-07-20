@@ -130,7 +130,3 @@ _heightTableView.rowHeight = UITableViewAutomaticDimension;
 
 # 总结
 > 把将要展示的几种 cell的基本信息 以 tableView 的数据结构二维数组的形式存放，储存基本配置并不会生成多余的 cell，内部创建采用 tableView 的重用机制。示例 Demo 中注释详细，[Demo下载地址](https://github.com/itzhangbao/ZBCellConfig)。
-
-> *** If I have no knife,I can't protect you.If I had a sword,I can't hold you. 
-> 如果我没有刀，我就不能保护你。如果我有刀，我就不能拥抱你。
-> ————《剪刀手爱德华》***
