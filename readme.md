@@ -1,7 +1,7 @@
 ![](https://github.com/itzhangbao/ZBCellConfig/blob/master/ZBCellConfig/ZBCellConfig.png)
 
 > 当一个 tableView 中的 cell 类型过多时，我们务必会在 tableView 的各个代理中做这样那样的判断，当需要增加一种 cell，或调换 cell 的顺序的时候我们就会在 tableView 的各个代理中进行修改判断。
-> 使用 **[ZBCellConfig](https://github.com/itzhangbao/ZBCellConfig)** 可以应对各种变态需求，当增删、调换 cell 的顺序时，只需一键配置。
+> 使用 ***ZBCellConfig*** 可以应对各种变态需求，当增删、调换 cell 的顺序时，只需一键配置。
 
 # 简介
 * ZBCellConfig 对象实例会将 tableView 中 cell 所需的基本信息存储下来，然后放到数组中进行管理；
@@ -129,4 +129,4 @@ _heightTableView.rowHeight = UITableViewAutomaticDimension;
 ```
 
 # 总结
-> 把将要展示的几种 cell的基本信息 以 tableView 的数据结构二维数组的形式存放，储存基本配置并不会生成多余的 cell，内部创建采用 tableView 的重用机制。示例 Demo 中注释详细，[Demo下载地址](https://github.com/itzhangbao/ZBCellConfig)。
+> 把将要展示的几种 cell的基本信息 以 tableView 的数据结构二维数组的形式存放，储存基本配置并不会生成多余的 cell，内部创建采用 tableView 的重用机制。示例 Demo 中注释详细。
