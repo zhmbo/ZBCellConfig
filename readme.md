@@ -132,3 +132,4 @@ _heightTableView.rowHeight = UITableViewAutomaticDimension;
 > 把将要展示的几种 cell的基本信息 以 tableView 的数据结构二维数组的形式存放，储存基本配置并不会生成多余的 cell，内部创建采用 tableView 的重用机制。示例 Demo 中注释详细。
 i am jumbo.
 i am jumbo.
+i am jumbo.
