@@ -238,7 +238,7 @@ static NSUInteger SelectorArgumentCount(SEL selector)
     // 执行 sectionHeader 赋值函数
     if (method && [headerFooterView respondsToSelector:method]) {
         
-        [headerFooterView zb_performSelector:self.showSectionHeaderInfoMethod withObjects:dataModels];
+        [headerFooterView zb_performSelector:method withObjects:dataModels];
     }
     
     return headerFooterView;
